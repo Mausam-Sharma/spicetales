@@ -1,0 +1,80 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "spice tales",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "abort",
+            "drop",
+            "abandon",
+            "scrap",
+            "call off",
+            "cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "succour",
+            "advice",
+            "guide",
+            "assistance",
+            "support",
+            "assist",
+            "help out",
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "close",
+            "break off",
+            "terminate",
+            "finish",
+            "end",
+            "cease",
+            "stop"
+          ]
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hi-ya",
+            "howdy",
+            "what\u0027s up",
+            "hey world",
+            "hi world",
+            "hello world",
+            "hey",
+            "greetings",
+            "hello",
+            "how are you",
+            "hi"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "4"
+}
